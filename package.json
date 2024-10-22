@@ -1,0 +1,17 @@
+{
+  "name": "Note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TZB-Loong/Note.git",
+  "author": "1490344098@qq.com <1490344098@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.4.1"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev --host 0.0.0.0",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "deploy": "vitepress build && gh-pages -d .vitepress/dist -r https://github.com/TZB-Loong/Note.git"
+  }
+}
