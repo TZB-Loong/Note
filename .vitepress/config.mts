@@ -1,8 +1,15 @@
 /*
  * @Author: long
+ * @Date: 2024-10-22 22:54:43
+ * @LastEditors: long
+ * @LastEditTime: 2024-10-29 09:53:47
+ * @Description:
+ */
+/*
+ * @Author: long
  * @Date: 2024-10-22 15:28:18
  * @LastEditors: long
- * @LastEditTime: 2024-10-22 22:29:06
+ * @LastEditTime: 2024-10-25 14:45:06
  * @Description:
  */
 import { defineConfig } from "vitepress";
@@ -30,6 +37,36 @@ export default defineConfig({
           { text: "浏览器存储配额问题解决", link: "/jsText/local" },
           { text: "Pinia持久化与存储配额", link: "/jsText/piniaLocal" },
           { text: "自定义图标选择器", link: "/jsText/iconPicker" },
+          { text: "Vue3 + TS 实现 iframe 嵌入与通信", link: "/jsText/iframe" },
+          {
+            text: "Vue3 + TS 实现可视化拖拽编辑器(低代码平台)",
+            link: "/jsText/vuedaraggableCom",
+          },
+          {
+            text: "IndexedDB：前端本地存储的强大武器",
+            link: "/jsText/indexedDb",
+          },
+          {
+            text: "Vue 3 中自动添加 CSS 前缀的最佳实践",
+            link: "/jsText/cssTarget",
+          },
+          {
+            text: "Vue3 + Vite + TypeScript 代理配置",
+            link: "/jsText/proxy",
+          },
+          {
+            text: "可视化看板画布的缩放方案实践指南",
+            link: "/jsText/transform",
+          },
+        ],
+      },
+      {
+        text: "工具",
+        items: [
+          {
+            text: "一键屏蔽搜索结果中的 AI 内容",
+            link: "/tools/uBlackList",
+          },
         ],
       },
     ],
@@ -41,13 +78,32 @@ export default defineConfig({
       provider: "local",
     },
     footer: {
-      message: '使用 VitePress 构建',
-      copyright: 'Copyright © 2024-present Long'
+      message: "使用 VitePress 构建",
+      copyright: "Copyright © 2024-present Long",
     },
     docFooter: {
-      prev: '上一页',
-      next: '下一页'
+      prev: "上一页",
+      next: "下一页",
     },
   },
   lastUpdated: true,
+  // 添加自定义主题配置
+  // @ts-ignore
+  theme: {
+    // 自定义CSS变量
+    vars: {
+      // 示例：修改主色调
+      "c-brand": "#3eaf7c",
+      // 示例：修改字体
+      "font-family-base": '"Microsoft YaHei", sans-serif',
+    },
+    // 自定义CSS
+    css: {
+      // 示例：添加全局样式
+      ".vp-doc a": {
+        "text-decoration": "none",
+        "border-bottom": "1px solid var(--c-brand)",
+      },
+    },
+  },
 });
