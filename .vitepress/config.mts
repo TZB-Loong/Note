@@ -1,15 +1,8 @@
 /*
  * @Author: long
- * @Date: 2024-10-22 22:54:43
- * @LastEditors: long
- * @LastEditTime: 2024-10-29 09:53:47
- * @Description:
- */
-/*
- * @Author: long
  * @Date: 2024-10-22 15:28:18
  * @LastEditors: long
- * @LastEditTime: 2024-10-25 14:45:06
+ * @LastEditTime: 2024-11-05 19:23:00
  * @Description:
  */
 import { defineConfig } from "vitepress";
@@ -58,6 +51,26 @@ export default defineConfig({
             text: "可视化看板画布的缩放方案实践指南",
             link: "/jsText/transform",
           },
+          {
+            text: "Vue 3 + TypeScript 中 Vue-i18n Hooks 的最佳实践",
+            link: "/jsText/i18n",
+          },
+          {
+            text: "Pinia 持久化存储在 Vue3 + TypeScript 中的最佳实践",
+            link: "/jsText/pinia",
+          },
+          {
+            text: " sn-e-scankit 强大的uni-app扫码插件",
+            link: "/jsText/scankit",
+          },
+          {
+            text: "HBuilderX 连接 MuMu 模拟器",
+            link: "/jsText/mumu",
+          },
+          {
+            text: "Vue3 + TypeScript + Axios 文件下载的Hooks封装及使用",
+            link: "/jsText/download",
+          },
         ],
       },
       {
@@ -66,6 +79,26 @@ export default defineConfig({
           {
             text: "一键屏蔽搜索结果中的 AI 内容",
             link: "/tools/uBlackList",
+          },
+          {
+            text: "JavSP：专业的 AV 元数据一键刮削工具",
+            link: "/tools/javsp",
+          },
+          {
+            text: "Cookie-share：一款开源的跨设备 Cookies 共享插件",
+            link: "/tools/cookieShare",
+          },
+          {
+            text: "MoonDream 使用指南",
+            link: "/tools/MoonDream",
+          },
+          {
+            text: "Bookmarks Artist - 一个高颜值的浏览器书签查看工具",
+            link: "/tools/bookmarks",
+          },
+          {
+            text: "Web Archive - 基于 Cloudflare 的免费网页归档与分享工具",
+            link: "/tools/webArchive",
           },
         ],
       },
