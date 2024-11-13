@@ -2,7 +2,7 @@
  * @Author: long
  * @Date: 2024-10-22 15:28:18
  * @LastEditors: long
- * @LastEditTime: 2024-11-05 19:23:00
+ * @LastEditTime: 2024-11-13 16:22:41
  * @Description:
  */
 import { defineConfig } from "vitepress";
@@ -71,6 +71,34 @@ export default defineConfig({
             text: "Vue3 + TypeScript + Axios 文件下载的Hooks封装及使用",
             link: "/jsText/download",
           },
+          {
+            text: "JSP",
+            link: "/jsText/jsp",
+          },
+          {
+            text: "动态使用 KeepAlive 组件的实现指南",
+            link: "/jsText/keepAlive",
+          },
+          {
+            text: "Vue3 + TypeScript 接入 UnoCSS 及常用原子类",
+            link: "/jsText/unocss",
+          },
+          {
+            text: "Vue3 + TypeScript 避免上传同名文件不触发上传文件窗口问题解决方案",
+            link: "/jsText/upload",
+          },
+          {
+            text: "http-server 使用指南",
+            link: "/jsText/http-server",
+          },
+          {
+            text: "Vue3 主题切换",
+            link: "/jsText/theme",
+          },
+          {
+            text: "Vue3 多主题预览插件",
+            link: "/jsText/mupTheme",
+          },
         ],
       },
       {
@@ -99,6 +127,14 @@ export default defineConfig({
           {
             text: "Web Archive - 基于 Cloudflare 的免费网页归档与分享工具",
             link: "/tools/webArchive",
+          },
+          {
+            text: "NewsNow - 一个开源的实时热门新闻程序",
+            link: "/tools/news",
+          },
+          {
+            text: "MediaGo",
+            link: "/tools/mediaGo",
           },
         ],
       },
