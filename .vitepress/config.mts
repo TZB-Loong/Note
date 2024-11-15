@@ -2,7 +2,7 @@
  * @Author: long
  * @Date: 2024-10-22 15:28:18
  * @LastEditors: long
- * @LastEditTime: 2024-11-13 16:22:41
+ * @LastEditTime: 2024-11-15 09:23:17
  * @Description:
  */
 import { defineConfig } from "vitepress";
@@ -98,6 +98,10 @@ export default defineConfig({
           {
             text: "Vue3 多主题预览插件",
             link: "/jsText/mupTheme",
+          },
+          {
+            text: "Vue3 + TypeScript 中 Axios 的封装",
+            link: "/jsText/axios",
           },
         ],
       },
