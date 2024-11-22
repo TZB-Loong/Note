@@ -2,7 +2,7 @@
  * @Author: long
  * @Date: 2024-10-22 15:28:18
  * @LastEditors: long
- * @LastEditTime: 2024-11-15 09:23:17
+ * @LastEditTime: 2024-11-21 19:26:17
  * @Description:
  */
 import { defineConfig } from "vitepress";
@@ -103,6 +103,18 @@ export default defineConfig({
             text: "Vue3 + TypeScript 中 Axios 的封装",
             link: "/jsText/axios",
           },
+          {
+            text: "uni-app 混合式开发指南：APP、小程序一键多平台部署",
+            link: "/jsText/uni-appH5+",
+          },
+          {
+            text: "Vue3 + TypeScript 使用 Vite 打包的基本配置",
+            link: "/jsText/viteConfig",
+          },
+          {
+            text: "右键弹出菜单指令封装 vue3+ts",
+            link: "/jsText/contextdirectives",
+          },
         ],
       },
       {
@@ -139,6 +151,15 @@ export default defineConfig({
           {
             text: "MediaGo",
             link: "/tools/mediaGo",
+          },
+        ],
+      },
+      {
+        text: "资源",
+        items: [
+          {
+            text: "资源",
+            link: "/resource/iondex",
           },
         ],
       },
