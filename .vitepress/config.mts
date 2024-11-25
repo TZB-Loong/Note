@@ -1,8 +1,15 @@
 /*
  * @Author: long
+ * @Date: 2024-10-22 22:54:43
+ * @LastEditors: long
+ * @LastEditTime: 2024-11-22 10:51:05
+ * @Description:
+ */
+/*
+ * @Author: long
  * @Date: 2024-10-22 15:28:18
  * @LastEditors: long
- * @LastEditTime: 2024-11-21 19:26:17
+ * @LastEditTime: 2024-11-22 10:31:04
  * @Description:
  */
 import { defineConfig } from "vitepress";
@@ -114,6 +121,14 @@ export default defineConfig({
           {
             text: "右键弹出菜单指令封装 vue3+ts",
             link: "/jsText/contextdirectives",
+          },
+          {
+            text: "postcss 多设计稿尺寸适配方案",
+            link: "/jsText/cicun",
+          },
+          {
+            text: "eachrt 环形图 图例分页 标题,值在环形图中间显示",
+            link: "/jsText/huanxingtu",
           },
         ],
       },
