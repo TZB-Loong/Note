@@ -1,15 +1,8 @@
 /*
  * @Author: long
- * @Date: 2024-10-22 22:54:43
- * @LastEditors: long
- * @LastEditTime: 2024-11-22 10:51:05
- * @Description:
- */
-/*
- * @Author: long
  * @Date: 2024-10-22 15:28:18
  * @LastEditors: long
- * @LastEditTime: 2024-11-22 10:31:04
+ * @LastEditTime: 2024-11-25 17:47:30
  * @Description:
  */
 import { defineConfig } from "vitepress";
@@ -129,6 +122,10 @@ export default defineConfig({
           {
             text: "eachrt 环形图 图例分页 标题,值在环形图中间显示",
             link: "/jsText/huanxingtu",
+          },
+          {
+            text: "vue3+ts+vite 动态路由",
+            link: "/jsText/dynamicRouter",
           },
         ],
       },
