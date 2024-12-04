@@ -2,7 +2,7 @@
  * @Author: long
  * @Date: 2024-10-22 15:28:18
  * @LastEditors: long
- * @LastEditTime: 2024-11-25 17:47:30
+ * @LastEditTime: 2024-11-28 09:21:13
  * @Description:
  */
 import { defineConfig } from "vitepress";
@@ -126,6 +126,10 @@ export default defineConfig({
           {
             text: "vue3+ts+vite 动态路由",
             link: "/jsText/dynamicRouter",
+          },
+          {
+            text: "css3 gird 布局 3 行式布局",
+            link: "/jsText/grid1",
           },
         ],
       },
